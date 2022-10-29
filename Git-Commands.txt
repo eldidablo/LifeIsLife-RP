@@ -27,6 +27,9 @@ git diff										# Mostra as alterações desde que foi feito o último commit
 git pull [Repository Link]						# Atualiza os ficheiros do repositório com o link indicado
 
 
+# Outros
+git ls-tree -r [branch-name] --name-only		# Vê uma lista com os ficheiros na branch
+
 # Comandos úteis que nao sei bem o que fazem mas que usei no trabalho
 git reset										# Remove todos os ficheiros que foram colocados no commit?
 git reset [file]								# Remove um ficheiro do commit?
