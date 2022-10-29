@@ -33,4 +33,4 @@ git reset [file]								# Remove um ficheiro do commit?
 git stash save									#
 git stash pop 									#
 git stash list 									#
-git stash drop									# A
+git stash drop									# 
