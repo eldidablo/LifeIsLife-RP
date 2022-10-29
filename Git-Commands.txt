@@ -1,0 +1,11 @@
+# Starting Commands
+git init										# Iniciar um novo repositório local
+git clone [url]									# Copia um repositório online
+
+# Branch Commands
+git checkout [branch-name] 						# Muda em que branch estás a trabalhar
+git branch 										# Mostra uma lista de todas as branches do projecto
+
+# 
+git add [file]									# Adiciona um ficheiro à lista de ficheiros a serem passados para o server
+git commit -m “[ Type in the commit message]”	#
