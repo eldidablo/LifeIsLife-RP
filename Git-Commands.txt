@@ -16,6 +16,7 @@ git diff [first branch] [second branch]			# Mostra as diferenças entre duas bra
 # Push to Server
 git add [file1] [file2] [file3] [...]			# Adiciona um ficheiro à lista de ficheiros a serem passados para o server
 git commit -m “[ Type in the commit message]”	# Prepara os ficheiros que foram adicionados para serem colocados no server
+git push origin [branch]						# Coloca os ficheiros no servidor na branch indicada
 //git reset										# Remove todos os ficheiros que foram colocados no commit
 //git reset [file]								# Remove um ficheiro do commit
 
