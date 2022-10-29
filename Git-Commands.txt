@@ -10,7 +10,7 @@ git branch 										# Mostra uma lista de todas as branches do projecto
 git branch [branch name]						# Cria um novo branch
 git branch -d [branch name]						# Apaga um branch
 git diff [first branch] [second branch]			# Mostra as diferenças entre duas branches
-//git merge [branch name]						# Dá merge entre o branch ativo e o branch especificado
+git merge [branch name]							# Une o branch ativo e o branch especificado
 
 
 # Push to Git
