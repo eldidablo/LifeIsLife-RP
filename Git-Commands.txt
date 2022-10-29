@@ -10,21 +10,23 @@ git branch 										# Mostra uma lista de todas as branches do projecto
 git branch [branch name]						# Cria um novo branch
 git branch -d [branch name]						# Apaga um branch
 git diff [first branch] [second branch]			# Mostra as diferenças entre duas branches
-//git merge [branch name]							# Dá merge entre o branch ativo e o branch especificado
+//git merge [branch name]						# Dá merge entre o branch ativo e o branch especificado
 
 
-# Push to Server
+# Push to Git
 git add [file1] [file2] [file3] [...]			# Adiciona um ficheiro à lista de ficheiros a serem passados para o server
-git commit -m “[ Type in the commit message]”	# Prepara os ficheiros que foram adicionados para serem colocados no server
+git rm [file]									# Apaga o ficheiro da pasta
+git commit -m “[Type in the commit message]”	# Prepara os ficheiros que foram adicionados para serem colocados no server
 git push origin [branch]						# Coloca os ficheiros no servidor na branch indicada
-//git reset										# Remove todos os ficheiros que foram colocados no commit
-//git reset [file]								# Remove um ficheiro do commit
-
-
-# Information About Server Push
+git status										# Mostra os ficheiros que estão atualmente no commit e os ficheiros que estão
 git diff										# Mostra as alterações desde que foi feito o último commit
-git status										# 
 
 
-#
-git rm [file]									# Apaga o ficheiro
+
+# Pull from Git
+git pull [Repository Link]						# Atualiza os ficheiros do repositório com o link indicado
+
+
+# Comandos úteis que nao sei bem o que fazem mas que usei no trabalho
+git reset										# Remove todos os ficheiros que foram colocados no commit?
+git reset [file]								# Remove um ficheiro do commit?
