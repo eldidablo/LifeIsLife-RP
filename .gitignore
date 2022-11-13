@@ -1,0 +1,6 @@
+
+cache/
+db/
+server.cfg.bkp
+server.cfg
+easyadmin_permissions.cfg

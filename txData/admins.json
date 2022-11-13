@@ -1,0 +1,21 @@
+[
+  {
+    "name": "tremoco_si",
+    "master": true,
+    "password_hash": "$2a$11$LhNyiRQPcaHJPfRLw3DJOOA2PfLR5A.ZpiAIK0ONNqluyisVKVaga",
+    "providers": {
+      "citizenfx": {
+        "id": "tremoco_si",
+        "identifier": "fivem:4090408",
+        "data": {
+          "sub": "a14cd6d1440e9e718d674c140ef45d49",
+          "nameid": "https://forum.cfx.re/internal/user/4090408",
+          "name": "tremoco_si",
+          "picture": "https://avatars.discourse.org/v4/letter/t/7933a0/256.png",
+          "profile": "https://forum.cfx.re/u/tremoco_si"
+        }
+      }
+    },
+    "permissions": []
+  }
+]
