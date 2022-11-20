@@ -4,3 +4,6 @@ db/
 server.cfg.bkp
 server.cfg
 easyadmin_permissions.cfg
+myLogo.png
+.gitignore
+Git-Commands.txt
